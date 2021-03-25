@@ -4,7 +4,7 @@
 This program utilizes a postgres database to store information about blog posts. You can log in and add your own blog posts. Permissions have been set to not allow someone to edit another person's post.
 
 ## What languages and libraries do this use?
-Python, Django REST Framework, Docker and PostgreSQL db.
+Python, Django REST Framework, Docker and a persistant PostgreSQL db.
 
 ## How do I install and use this?
 
