@@ -4,7 +4,7 @@
 This program utilizes a postgres database to store information about blog posts. You can log in and add your own blog posts. Permissions have been set to not allow someone to edit another person's post.
 
 ## What languages and libraries do this use?
-Python, Django REST Framework, Docker and a persistant PostgreSQL db.
+Python, Django REST Framework, Docker, persistant PostgreSQL db, psycopg2, SimpleJWT, httpie, gunicorn, and whitenoise
 
 ## How do I install and use this?
 
@@ -41,3 +41,8 @@ http://127.0.0.1:8000/api/v1/blogs/
 
 Now you can add or access the currently stored JSON data.
 
+## VERSIONS
+
+1.0: DRF, docker and Postgresql created. Permissions and Serializer created.
+
+1.1: Persistance with the Postgresql DB. New authentification classes added. New depencencies added: SimpleJWT, httpie, gunicorn, and whitenoise.
