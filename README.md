@@ -46,3 +46,5 @@ Now you can add or access the currently stored JSON data.
 1.0: DRF, docker and Postgresql created. Permissions and Serializer created.
 
 1.1: Persistance with the Postgresql DB. New authentification classes added. New depencencies added: SimpleJWT, httpie, gunicorn, and whitenoise.
+
+1.2: Added .env
