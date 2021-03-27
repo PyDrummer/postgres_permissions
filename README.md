@@ -48,3 +48,5 @@ Now you can add or access the currently stored JSON data.
 1.1: Persistance with the Postgresql DB. New authentification classes added. New depencencies added: SimpleJWT, httpie, gunicorn, and whitenoise.
 
 1.2: Added .env
+
+1.2: ElephantSQL implemented as my db, cors dependency added. AWS hosting implemented.
